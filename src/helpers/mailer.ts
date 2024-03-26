@@ -26,7 +26,7 @@ export async function sendEmail({ email, emailType, userId }: any) {
       port: 2525,
       auth: {
         user: process.env.EMAIL,
-        pass: process.env.PASS,
+        pass: process.env.PASSWORD,
       },
     });
 
