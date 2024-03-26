@@ -10,12 +10,14 @@ const Loading: React.FC<Props> = ({ text }) => {
     <div>
       <LoadingScreen
         loading={true}
-        bgColor="#091B18"
+        bgColor="#000000"
         spinnerColor="#9ee5f8"
         textColor="#676767"
-        logoSrc="https://i.imgur.com/uPvFvZe.jpg"
-        text={text} // Pass text as a string, not an object
-      />
+        logoSrc="/loading.png"
+        text={text}
+      >
+        {" "}
+      </LoadingScreen>
     </div>
   );
 };
